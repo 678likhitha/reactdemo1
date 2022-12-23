@@ -8,6 +8,7 @@ import Refresh from '@material-ui/icons/Refresh';
 import Save from '@material-ui/icons/Save';
 import AddBox from '@material-ui/icons/AddBox';
 import Header from './components/Header';
+import AppPay from './components/AppPay';
 function App() {
   // const tableRef = useRef(null);
   const [tableData, setTableData] = useState([{
@@ -72,7 +73,8 @@ function App() {
   }}
   icons={{Add:()=> <AddBox/>}}
      /> */}
-     <Header/>
+     {/* <Header/> */}
+     <AppPay/>
     </div>
   );
 }
